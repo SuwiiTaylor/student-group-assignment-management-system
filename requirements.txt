@@ -9,5 +9,5 @@ psycopg[binary]>=3.2,<4.0; platform_system != "Windows" or python_version < "0"
 # Production web server
 gunicorn>=23.0,<24.0
 
-# Static file serving on Render
+# Static file serving
 whitenoise>=6.8,<7.0
